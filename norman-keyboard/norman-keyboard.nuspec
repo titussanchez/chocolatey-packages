@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>norman-keyboard</id>
+    <title>Norman Keyboaard Layout (Install)</title>
+    <version>0.1.0</version>
+    <authors>David Norman</authors>
+    <owners>Titus Sanchez</owners>
+    <summary>Norman is a fully optimized alternative keyboard layout to QWERTY for touch typing in English.</summary>
+    <description>Norman is a fully optimized alternative keyboard layout to
+      QWERTY for touch typing in English. It maintains keyboard shortcuts for
+      the letters QWASZXCV and keeps 22/26 letters in the normal use pattern of
+      their QWERTY finger, if not the original QWERTY location. </description>
+    <projectUrl>https://normanlayout.info</projectUrl>
+    <tags>keyboard-layout admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://normanlayout.info</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
