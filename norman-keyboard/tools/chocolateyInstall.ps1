@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName = 'norman-keyboard'
+$packageName = 'norman'
 $installerType = 'msi'
 $url = 'https://normanlayout.info/files/Norman.zip'
 $silentArgs = '/q'
@@ -14,4 +14,5 @@ if ($(Get-ProcessorBits 32)) {
 } else {
   $target = Join-Path $toolsDir "Norman/Norman_amd64.msi"
 }
+
 Install-ChocolateyInstallPackage "$packageName" "$installerType" "$silentArgs" "$target" -validExitCodes $validExitCodes

@@ -1,9 +1,6 @@
-﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
+﻿$ErrorActionPreference = 'Stop';
 
-# stop on all errors
-$ErrorActionPreference = 'Stop';
-
-$packageName = 'norman-keyboard'
+$packageName = 'norman'
 $installerType = 'msi'
 $silentArgs = '/q'
 $validExitCodes = @(0)
@@ -18,5 +15,4 @@ if ($(Get-ProcessorBits 32)) {
 $env:chocolateyInstallArguments = "$file $silentArgs"
 $env:chocolateyInstallOverride = $TRUE
 
-	
 Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -validExitCodes $validExitCodes
