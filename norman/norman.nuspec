@@ -18,7 +18,7 @@
     <copyright></copyright>
     <licenseUrl>http://creativecommons.org/publicdomain/zero/1.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://github.com/titussanchez/chocolatey-packages/blob/master/norman/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
