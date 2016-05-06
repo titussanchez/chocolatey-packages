@@ -12,7 +12,6 @@ if ($(Get-ProcessorBits 32)) {
   $file = Join-Path $toolsDir "Norman/Norman_amd64.msi"
 }
 
-$env:chocolateyInstallArguments = "$file $silentArgs"
-$env:chocolateyInstallOverride = $TRUE
+$silentArgs = "$file $silentArgs"
 
-Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -validExitCodes $validExitCodes
+Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -SilentArgs $silentArgs -validExitCodes $validExitCodes
