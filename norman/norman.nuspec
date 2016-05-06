@@ -13,9 +13,10 @@
       the letters QWASZXCV and keeps 22/26 letters in the normal use pattern of
       their QWERTY finger, if not the original QWERTY location. </description>
     <projectUrl>https://normanlayout.info</projectUrl>
+    <packageSourceUrl>https://github.com/titussanchez/chocolatey-packages</packageSourceUrl>
     <tags>keyboard-layout norman admin</tags>
     <copyright></copyright>
-    <licenseUrl>https://normanlayout.info</licenseUrl>
+    <licenseUrl>http://creativecommons.org/publicdomain/zero/1.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
   </metadata>
